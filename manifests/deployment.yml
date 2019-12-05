@@ -1,0 +1,16 @@
+apiVersion : apps/v1beta1
+kind: Deployment
+metadata:
+  name: sauravsrivastavtestaks 
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: sauravsrivastavtestaks 
+    spec:
+      containers:
+        - name: sauravsrivastavtestaks 
+          image: mymicroserviceregistry.azurecr.io/sauravsrivastavtestaks
+          ports:
+          - containerPort: 80
