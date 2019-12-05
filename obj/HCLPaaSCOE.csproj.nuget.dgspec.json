@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\saurav.srivastava\\Desktop\\HCLPaaSCOE\\HCLPaaSCOE.csproj": {}
+    "c:\\Users\\saurav.srivastava\\Desktop\\HCLPaaSCOE\\HCLPaaSCOE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\saurav.srivastava\\Desktop\\HCLPaaSCOE\\HCLPaaSCOE.csproj": {
+    "c:\\Users\\saurav.srivastava\\Desktop\\HCLPaaSCOE\\HCLPaaSCOE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\saurav.srivastava\\Desktop\\HCLPaaSCOE\\HCLPaaSCOE.csproj",
+        "projectUniqueName": "c:\\Users\\saurav.srivastava\\Desktop\\HCLPaaSCOE\\HCLPaaSCOE.csproj",
         "projectName": "HCLPaaSCOE",
-        "projectPath": "C:\\Users\\saurav.srivastava\\Desktop\\HCLPaaSCOE\\HCLPaaSCOE.csproj",
+        "projectPath": "c:\\Users\\saurav.srivastava\\Desktop\\HCLPaaSCOE\\HCLPaaSCOE.csproj",
         "packagesPath": "C:\\Users\\saurav.srivastava\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\saurav.srivastava\\Desktop\\HCLPaaSCOE\\obj\\",
+        "outputPath": "c:\\Users\\saurav.srivastava\\Desktop\\HCLPaaSCOE\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

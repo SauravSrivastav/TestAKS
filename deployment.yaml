@@ -1,0 +1,34 @@
+#This is a basic Deployment file that will get exposed by a service(LoadBalancer).
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: paascoe-deployment
+spec:
+  selector:
+    matchLabels:
+      app: paascoe
+  replicas: 1 # tells deployment to run 2 pods matching the template
+  template: 
+    metadata:
+      labels:
+        app: paascoe
+    spec:
+      containers:
+      - name: paascoe
+        image: acrsauravsrivastav/paascoe:v1.#{$(Build.BuildId)}#
+        ports:
+        - containerPort: 80
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: paascoe-service
+spec:
+  selector:
+    app: paascoe
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
+  type: LoadBalancer
